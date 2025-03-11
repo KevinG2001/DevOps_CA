@@ -29,3 +29,6 @@ jobs:
       - name: Run Mocha tests
         run: |
           npm test
+
+      - name: Run ESLint
+        run: npx eslint .
